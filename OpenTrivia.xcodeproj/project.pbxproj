@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		755DA95D231535C6003F9428 /* QuestionDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755DA95C231535C6003F9428 /* QuestionDecodable.swift */; };
 		7591987B230993AF00EEF22A /* JsonDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7591987A230993AF00EEF22A /* JsonDecodable.swift */; };
 		75FB439D2302B8F500E4AA82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FB439C2302B8F500E4AA82 /* AppDelegate.swift */; };
 		75FB43A22302B8F500E4AA82 /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FB43A02302B8F500E4AA82 /* LogIn.storyboard */; };
@@ -15,13 +16,13 @@
 		75FB43B22302BD9700E4AA82 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FB43B12302BD9700E4AA82 /* LogInViewController.swift */; };
 		75FB43B42302C08400E4AA82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75FB43B32302C08400E4AA82 /* Main.storyboard */; };
 		75FB43B62302C58800E4AA82 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FB43B52302C58800E4AA82 /* MainViewController.swift */; };
-		75FB43B82304824A00E4AA82 /* QuestionsCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FB43B72304824A00E4AA82 /* QuestionsCodable.swift */; };
 		8E89ADAEFF5CB9F434E0A081 /* Pods_OpenTrivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39FE1FF829FDBDD574AC6F8 /* Pods_OpenTrivia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22AD07D38BD6DF87E60217FD /* Pods-OpenTrivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTrivia.release.xcconfig"; path = "Target Support Files/Pods-OpenTrivia/Pods-OpenTrivia.release.xcconfig"; sourceTree = "<group>"; };
 		333A1702D48D7A8ED14A23A4 /* Pods-OpenTrivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenTrivia.debug.xcconfig"; path = "Target Support Files/Pods-OpenTrivia/Pods-OpenTrivia.debug.xcconfig"; sourceTree = "<group>"; };
+		755DA95C231535C6003F9428 /* QuestionDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionDecodable.swift; sourceTree = "<group>"; };
 		7591987A230993AF00EEF22A /* JsonDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecodable.swift; sourceTree = "<group>"; };
 		75FB43992302B8F500E4AA82 /* OpenTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FB439C2302B8F500E4AA82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		75FB43B12302BD9700E4AA82 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		75FB43B32302C08400E4AA82 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		75FB43B52302C58800E4AA82 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		75FB43B72304824A00E4AA82 /* QuestionsCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsCodable.swift; sourceTree = "<group>"; };
 		A39FE1FF829FDBDD574AC6F8 /* Pods_OpenTrivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenTrivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,7 +108,7 @@
 				75FB43A32302B8F600E4AA82 /* Assets.xcassets */,
 				75FB439C2302B8F500E4AA82 /* AppDelegate.swift */,
 				75FB43A82302B8F600E4AA82 /* Info.plist */,
-				75FB43B72304824A00E4AA82 /* QuestionsCodable.swift */,
+				755DA95C231535C6003F9428 /* QuestionDecodable.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -250,8 +250,8 @@
 			files = (
 				75FB43B62302C58800E4AA82 /* MainViewController.swift in Sources */,
 				75FB43B22302BD9700E4AA82 /* LogInViewController.swift in Sources */,
-				75FB43B82304824A00E4AA82 /* QuestionsCodable.swift in Sources */,
 				7591987B230993AF00EEF22A /* JsonDecodable.swift in Sources */,
+				755DA95D231535C6003F9428 /* QuestionDecodable.swift in Sources */,
 				75FB439D2302B8F500E4AA82 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
