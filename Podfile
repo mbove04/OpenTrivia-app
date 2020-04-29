@@ -7,4 +7,5 @@ target 'OpenTrivia' do
 
   # Pods for OpenTrivia
   pod 'SwiftyJSON', '~> 4.0'
+  pod 'ProgressHUD' #import for Objetive-c
 end
